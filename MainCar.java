@@ -9,7 +9,7 @@ public class MainCar {
 		int passenger = scanner.nextInt();
 		System.out.println("Number of kms");
 		int kms = scanner.nextInt();
-		
+		scanner.close();
 		OLA myOla = new OLA();
 		Car myCar = myOla.bookCar(passenger, kms);
 		
